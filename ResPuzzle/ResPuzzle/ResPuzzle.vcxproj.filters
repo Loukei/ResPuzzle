@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="原始程式檔">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inputs">
+      <UniqueIdentifier>{1c523cd5-ab80-4eb1-ab32-52a9e106cd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPuzzleController">
+      <UniqueIdentifier>{9c835bbf-8c2f-4847-96a0-34d7f1516433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPuzzleView">
+      <UniqueIdentifier>{cfe53a16-ee9e-400e-aaf5-6fa1e3cf5234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPuzzleModel">
+      <UniqueIdentifier>{dace111f-fbf5-436c-84a7-091c13c77cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPuzzleModel\voxelspace">
+      <UniqueIdentifier>{dc9019cb-96f9-4122-9fd4-2194210e38bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncons">
+      <UniqueIdentifier>{6d850779-c575-4a1b-ab13-7ca80ffcddd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPuzzleView\glVM">
+      <UniqueIdentifier>{3734b132-8f7e-4691-9f5a-90102c540d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResPuzzleView\trackballcontroller">
+      <UniqueIdentifier>{7fcfc0a1-e24b-4112-857d-1bde0c412c47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\error_handler.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_deserializer.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_exception.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_filter.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_input_handler.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_output_handler.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_reader.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_serializer.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json_structures.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json1.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\json2.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\jsoncons.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\jsoncons_config.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="jsoncons\output_format.hpp">
+      <Filter>jsoncons</Filter>
+    </ClInclude>
+    <ClInclude Include="trackball.h">
+      <Filter>ResPuzzleView\trackballcontroller</Filter>
+    </ClInclude>
+    <ClInclude Include="glVoxModel.h">
+      <Filter>ResPuzzleView\glVM</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelSpace.h">
+      <Filter>ResPuzzleModel\voxelspace</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel.h">
+      <Filter>ResPuzzleModel\voxelspace</Filter>
+    </ClInclude>
+    <ClInclude Include="ResPuzzleController.h">
+      <Filter>ResPuzzleController</Filter>
+    </ClInclude>
+    <ClInclude Include="ResPuzzleModel.h">
+      <Filter>ResPuzzleModel</Filter>
+    </ClInclude>
+    <ClInclude Include="glutMainWindow.h">
+      <Filter>ResPuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="ResPuzzleView.h">
+      <Filter>ResPuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="glutWindow.h">
+      <Filter>ResPuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="glutSubWindow.h">
+      <Filter>ResPuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="glutAnimateWindow.h">
+      <Filter>ResPuzzleView</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="ResPuzzle.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
+    <ClCompile Include="trackball.cpp">
+      <Filter>ResPuzzleView\trackballcontroller</Filter>
+    </ClCompile>
+    <ClCompile Include="glVoxModel.cpp">
+      <Filter>ResPuzzleView\glVM</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelSpace.cpp">
+      <Filter>ResPuzzleModel\voxelspace</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel.cpp">
+      <Filter>ResPuzzleModel\voxelspace</Filter>
+    </ClCompile>
+    <ClCompile Include="ResPuzzleController.cpp">
+      <Filter>ResPuzzleController</Filter>
+    </ClCompile>
+    <ClCompile Include="ResPuzzleView.cpp">
+      <Filter>ResPuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="glutMainWindow.cpp">
+      <Filter>ResPuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="glutWindow.cpp">
+      <Filter>ResPuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="glutSubWindow.cpp">
+      <Filter>ResPuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="ResPuzzleModel.cpp">
+      <Filter>ResPuzzleModel</Filter>
+    </ClCompile>
+    <ClCompile Include="glutAnimateWindow.cpp">
+      <Filter>ResPuzzleView</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="input\al-1.json">
+      <Filter>inputs</Filter>
+    </None>
+    <None Include="input\al-2.json">
+      <Filter>inputs</Filter>
+    </None>
+    <None Include="input\al-5.json">
+      <Filter>inputs</Filter>
+    </None>
+    <None Include="input\earth2-9.json">
+      <Filter>inputs</Filter>
+    </None>
+  </ItemGroup>
+</Project>
